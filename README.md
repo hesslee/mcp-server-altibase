@@ -1,7 +1,8 @@
 # Altibase MCP Server
 
 ## Overview
-A Model Context Protocol (MCP) server implementation that provides database interaction and business intelligence capabilities through Altibase. This server enables running SQL queries, analyzing business data, and automatically generating business insight memos.
+- A Model Context Protocol (MCP) server implementation that provides database interaction and business intelligence capabilities through Altibase. This server enables running SQL queries, analyzing business data, and automatically generating business insight memos.
+- It is based on https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite and modified for Altibase.
 
 ## Components
 
