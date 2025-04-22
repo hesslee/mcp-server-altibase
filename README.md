@@ -66,7 +66,7 @@ The server offers six core tools:
 - Unixodbc setting example for Linux
 - ODBC DSN setting example for Windows
 
-## Unixodbc setting example for Linux
+### Unixodbc setting example for Linux
 - install : sudo apt-get install unixodbc-dev
 - example configuration :
 ```
@@ -87,7 +87,7 @@ $ cat /etc/odbcinst.ini
 Trace=Yes
 TraceFile=/tmp/odbc_trace.log
 ```
-## ODBC DSN setting example for Windows
+### ODBC DSN setting example for Windows
 - Altibase Windows ODBC driver is registered during Altibase Windows client installation procedure.
 - Add a ODBC DSN for Altibase.
 - example configuration :
