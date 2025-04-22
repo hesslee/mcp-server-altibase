@@ -60,10 +60,53 @@ The server offers six core tools:
    - Returns: Confirmation of insight addition
    - Triggers update of memo://insights resource
 
+## Prereqisite
+- Download and install Altibase server and client from http://support.altibase.com/en/product
+- Unixodbc setting example for Linux
+- ODBC DSN setting example for Windows
+
+## Unixodbc setting example for Linux
+- install : sudo apt-get install unixodbc-dev
+- example configuration :
+```
+$ cat /etc/odbc.ini 
+[PYODBC]
+Driver          = /home/hess/work/altidev4/altibase_home/lib/libaltibase_odbc-64bit-ul64.so
+Database        = mydb
+ServerType      = Altibase
+Server          = 127.0.0.1
+Port            = 21121
+UserName        = SYS
+Password        = MANAGER
+FetchBuffersize = 64
+ReadOnly        = no
+
+$ cat /etc/odbcinst.ini 
+[ODBC]
+Trace=Yes
+TraceFile=/tmp/odbc_trace.log
+```
+## ODBC DSN setting example for Windows
+- Altibase Windows ODBC driver is registered during Altibase Windows client installation procedure.
+- Add a ODBC DSN for Altibase.
+- example configuration :
+```
+[Altibase Connection Config]
+Windows DSN Name: PYODBC
+host(name or IP): 192.168.1.210
+Port(default 20300): 21121
+User: SYS
+Password: MANAGER
+Database: mydb
+NLS_USE: UTF-8
+```
 
 ## Usage with Claude Desktop
+- Install Claude for desktop.
 
 ### uv
+- Install uv
+- uv is a fast Python package installer and resolver, aiming to be a drop-in replacement for pip and pip-tools.
 
 ```bash
 # Add the server to your claude_desktop_config.json
