@@ -72,7 +72,7 @@ The server offers six core tools:
     "command": "uv",
     "args": [
       "--directory",
-      "parent_of_servers_repo/servers/src/altibase",
+      "path/to/repository/directory",
       "run",
       "mcp-server-altibase",
       "--odbc-dsn",
