@@ -107,7 +107,7 @@ NLS_USE: UTF-8
 
 ### uv
 - Install uv
-- uv is a fast Python package installer and resolver, aiming to be a drop-in replacement for pip and pip-tools.
+- uv is designed to be a fast and efficient alternative to pip and venv for Python package management and virtual environment creation.
 
 ```bash
 # Add the server to your claude_desktop_config.json
