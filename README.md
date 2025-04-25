@@ -116,7 +116,7 @@ NLS_USE: UTF-8
   "altibase": {
     "command": "uvx",
     "args": [
-      "mcp-server-altibase",
+      "mcp-server-altibase@latest",
       "--odbc-dsn",
       "PYODBC"
     ]
