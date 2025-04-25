@@ -109,6 +109,22 @@ NLS_USE: UTF-8
 - Install uv
 - uv is designed to be a fast and efficient alternative to pip and venv for Python package management and virtual environment creation.
 
+### MCP client configuration example without git clone
+```bash
+# Add the server to your claude_desktop_config.json
+"mcpServers": {
+  "altibase": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-altibase",
+      "--odbc-dsn",
+      "PYODBC"
+    ]
+  }
+}
+```
+
+### MCP client configuration example with git clone
 ```bash
 # Add the server to your claude_desktop_config.json
 "mcpServers": {
