@@ -63,8 +63,8 @@ The server offers six core tools:
 
 ## Prereqisite
 - Download and install Altibase server and client from http://support.altibase.com/en/product
-- Unixodbc setting example for Linux
-- ODBC DSN setting example for Windows
+- Unixodbc setting for Linux
+- ODBC DSN setting for Windows
 
 ### Unixodbc setting example for Linux
 - install : sudo apt-get install unixodbc-dev
