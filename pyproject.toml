@@ -1,6 +1,6 @@
 [project]
 name = "mcp-server-altibase"
-version = "0.0.2"
+version = "0.0.3"
 description = "A simple Altibase MCP server"
 readme = "README.md"
 requires-python = ">=3.10"
