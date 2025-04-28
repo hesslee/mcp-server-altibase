@@ -3,9 +3,9 @@
 ## Overview
 - A Model Context Protocol (MCP) server implementation that provides database interaction and business intelligence capabilities through Altibase.
 - This server enables running SQL queries, analyzing business data, and automatically generating business insight memos.
-- This source code is maintained on https://github.com/hesslee/mcp-server-altibase.
-- This source code is based on https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite and modified for Altibase.
-- This package is uploaded on https://pypi.org/project/mcp-server-altibase.
+- This source code is maintained on https://github.com/hesslee/mcp-server-altibase
+- This source code is based on https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite
+- This package is uploaded on https://pypi.org/project/mcp-server-altibase
 
 ## Components
 
